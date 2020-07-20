@@ -9,8 +9,6 @@ Invoking this module will create :
  - CW event rule to trigger lambda function
  - Lambda to generate the report, save it to S3 and send it via SES 
 
-## Terraform
-Version of the code for the module 0.11.xx 
 
 ## Change log
 1. Version 1.00 - Initial version
