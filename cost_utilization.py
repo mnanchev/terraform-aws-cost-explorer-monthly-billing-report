@@ -110,8 +110,7 @@ def lambda_handler(event, context):
         response = ses.send_raw_email(
             Source=SENDER,
             Destinations=[
-                RECIPIENT,
-                'support@email.com',
+                RECIPIENT
             ],
             RawMessage={
                 'Data': msg.as_string(),
